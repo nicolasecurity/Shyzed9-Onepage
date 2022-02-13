@@ -1,0 +1,166 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: Arial;
+}
+
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/939353111665967197/942263231102218290/waves2.gif');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu li {
+    margin-left: 45px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: .1em;
+    margin-block-end: .1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+}
+/* Aumentando a área de clique */
+.menu li a {
+    display: block;
+    padding: 7px;
+    border: 1px solid transparent;
+    border-radius: .3rem;
+    padding: 10px;
+}
+
+.menu li a:hover{
+    color: black;
+    border-radius: .3rem;
+    background-color: white;
+    transition: .5s;
+}
+
+.sayuri-img img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70vh;
+}
+
+.botname {
+    color: white;
+    margin-top: 43vh;
+    margin-left: 10vh;
+    font-weight: bolder;
+}
+
+.botname h1 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn {
+    margin-top: 2.5vh;
+    margin-left: 10vh;
+}
+
+.btn i {
+    padding-right: 10px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    padding: .7rem 1.2rem;
+    font-weight: 600;
+    border-radius: .5rem;
+    transition: .8s;
+    border: 1px solid white;
+  }
+  
+  .button:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.37);
+    color: aquamarine;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+
+.global-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1700px) {
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: -3.5vh;
+    }
+
+    .menu li {
+        margin-left: 8px;
+    }
+
+    .menu li:nth-child(n+4) {
+        display: none;
+    }
+
+    .botname {
+        margin-top: 40vh;
+        margin-left: 3vh;
+    }
+
+    .btn {
+        margin-left: 3vh;
+    }
+
+    body {
+        background-image: url('https://cdn.discordapp.com/attachments/939353111665967197/942263231102218290/waves2.gif');
+        background-size: 200vh;
+        background-repeat: no-repeat;
+    }
+
+    .a-logo {
+        display: none;
+    }
+}
+
+
+
